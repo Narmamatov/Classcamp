@@ -1,0 +1,475 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.97);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+#header {
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  color: black;
+  display: flex;
+  gap: 30px;
+}
+.click {
+  display: flex;
+  align-items: center;
+  color: black;
+  display: flex;
+  gap: 30px;
+}
+.header h1 {
+  padding-right: 40px;
+  color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.firsttext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.firsttext h1 {
+  padding-top: 70px;
+  color: white;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.firsttext p {
+  color: #ffffffd0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.firsttext button {
+  margin-top: 30px;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4343;
+  color: white;
+  font-size: 18px;
+}
+.firsttext span {
+  margin-top: 4px;
+  font-size: 24px;
+}
+.firsttext h6 {
+  color: #ffffffba;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.first-image {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.first-image-one {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.first-image-two {
+  position: absolute;
+  right: 185px;
+  top: 250px;
+  z-index: -2;
+}
+.second {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.second-text h1 {
+  margin-bottom: 30px;
+  width: 470px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 63px;
+  font-weight: 400;
+}
+.second-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 400px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.542);
+  font-size: 25px;
+}
+.second-image {
+  position: relative;
+}
+.second-image-one {
+  position: absolute;
+  right: 0;
+}
+.threed {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+}
+.threed-text h1 {
+  margin-bottom: 30px;
+  width: 470px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 63px;
+  font-weight: 400;
+}
+.threed-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 450px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.542);
+  font-size: 25px;
+}
+.four {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+}
+.four-text h1 {
+  margin-bottom: 30px;
+  width: 470px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.four-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 380px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.542);
+  font-size: 21px;
+}
+.five {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+}
+.five-text h1 {
+  margin-bottom: 30px;
+  width: 430px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.five-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 420px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.542);
+  font-size: 21px;
+}
+.six {
+  margin: 40px 0;
+}
+.six-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.six-text h1 {
+  margin-bottom: 30px;
+  width: 420px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.red {
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.97);
+  width: 90px;
+  height: 3px;
+  background-color: rgb(255, 0, 0);
+}
+.six-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 480px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.542);
+  font-size: 21px;
+}
+.six-images {
+  width: 1100px;
+  display: flex;
+  gap: 30px;
+  overflow: scroll;
+}
+.six-image {
+  margin: 25px 0;
+  position: relative;
+}
+.six-image-text h1 {
+  margin-bottom: 30px;
+  width: 300px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.six-image-text {
+  position: absolute;
+  bottom: 40px;
+}
+.six-image-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 280px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.962);
+  font-size: 20px;
+}
+.six-image-text h2 {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 280px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.501);
+  font-size: 20px;
+}
+.seven-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.seven-text a {
+  margin-top: 200px;
+  padding-bottom: 20px;
+  color: #8bffb0;
+}
+.seven-text h1 {
+  margin-bottom: 30px;
+  width: 680px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.seven-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 680px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.542);
+  font-size: 21px;
+  padding-bottom: 20px;
+}
+.seven-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eight-text {
+  width: 900px;
+  margin: auto;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: #1d1b24;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.eight-text h1 {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.eight-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.682);
+  font-size: 21px;
+}
+.eight-text button {
+  margin-top: 30px;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4343;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.course h4 {
+  padding-top: 130px;
+  margin-bottom: 80px;
+  padding-left: 30px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.nighn {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 130px;
+}
+.box {
+  position: relative;
+
+  gap: 40px;
+  display: flex;
+  width: 600px;
+  height: 400px;
+  background-color: #8ceaaa;
+}
+.box-text {
+  margin-left: 260px;
+}
+.box-text a {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.53);
+}
+.box-text h1 {
+  padding: 30px 0;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.box-text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  width: 300px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.542);
+  font-size: 18px;
+}
+.box-text h5 {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  margin: 20px 0 0 150px;
+}
+.box-text h5 span {
+  margin: 10px 0 0 10px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.img-nighn {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+.block {
+  background-color: #000000;
+}
+.logo h1 {
+  padding: 60px 0 260px 100px;
+  color: rgb(255, 250, 250);
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.ten {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  margin-top: 80px;
+  width: 900px;
+  gap: 100px;
+  display: flex;
+}
+.one a {
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+}
+.one a:first-child {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.one {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.two a {
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+}
+.two a:first-child {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.two {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.three a {
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+}
+.three a:first-child {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.three {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.four-icons {
+  font-size: 22px;
+  color: white;
+}
